@@ -1,0 +1,39 @@
+{
+  "datatype_keywords": {
+    "정답경계 추출형": "span_extraction",
+    "Table 정답추출형": "tableqa",
+    "절차(방법)": "span_extraction_how",
+    "응답 불가형": "unanswerable",
+    "Yes/No 단문형": "text_entailment",
+    "다지선다형(추론형)": "multiple_choice"
+  },
+  "data_dir": "{DATA_PATH}",
+  "save_dir": "{DATA_PATH}",
+  "data_filename_list": {
+    "span_extraction": [
+      "TL_span_extraction.json",
+      "VL_span_extraction.json",
+      "merged_data_admin_answer_span_family.json"
+    ],
+    "tableqa": [
+      "TL_tableqa.json",
+      "VL_tableqa.json"
+    ],
+    "span_extraction_how": [
+      "TL_span_extraction_how.json",
+      "VL_span_extraction_how.json"
+    ],
+    "unanswerable": [
+      "TL_unanswerable.json",
+      "VL_unanswerable.json"
+    ],
+    "text_entailment": [
+      "TL_text_entailment.json",
+      "VL_text_entailment.json"
+    ],
+    "multiple_choice": [
+      "shuffled_TL_multiple_choice.json",
+      "shuffled_VL_multiple_choice.json"
+    ]
+  }
+}
