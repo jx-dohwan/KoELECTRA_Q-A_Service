@@ -7,8 +7,8 @@
     "Yes/No 단문형": "text_entailment",
     "다지선다형(추론형)": "multiple_choice"
   },
-  "data_dir": "{DATA_PATH}",
-  "save_dir": "{DATA_PATH}",
+  "data_dir": "/content/drive/MyDrive/인공지능/koelectra_qa_service/data",
+  "save_dir": "/content/drive/MyDrive/인공지능/koelectra_qa_service/data_prepare_file",
   "data_filename_list": {
     "span_extraction": [
       "TL_span_extraction.json",
