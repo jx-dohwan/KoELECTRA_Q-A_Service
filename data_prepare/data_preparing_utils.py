@@ -4,6 +4,7 @@ import random
 
 
 def merge_answer_span_family(data_dir, save_dir, target_datatype):
+    print(os.listdir(data_dir))
     target_data_filenames = [f for f in os.listdir(data_dir) if 'TL' in f and
                              any(datatype in f for datatype in target_datatype)]
 

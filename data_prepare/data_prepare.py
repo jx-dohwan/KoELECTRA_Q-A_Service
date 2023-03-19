@@ -1,12 +1,14 @@
 from attrdict import AttrDict
+import sys
+sys.path.append('/content/drive/MyDrive/인공지능/koelectra_qa_service/data_prepare')
 import data_preparing_utils
 import argparse
 import json
 import os
 
-
+config_path = "/content/drive/MyDrive/인공지능/koelectra_qa_service/config"
 def main(args):
-    with open(os.path.join('../config', args.config_file)) as f:
+    with open(os.path.join(config_path, args.config_file)) as f:
         config = AttrDict(json.load(f))
 
     data_dir = config.data_dir
